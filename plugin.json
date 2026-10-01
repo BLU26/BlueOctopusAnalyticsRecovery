@@ -1,0 +1,9 @@
+{
+  "name": "BlueOctopusAnalyticsRecovery",
+  "description": "Temporary route for Google Analytics account recovery on blueoctopus.de.",
+  "namespace": "BlueOctopusAnalyticsRecovery",
+  "author": "Blue Octopus Design",
+  "type": "template",
+  "serviceProvider": "BlueOctopusAnalyticsRecovery\\Providers\\AnalyticsRecoveryServiceProvider",
+  "version": "1.0.0"
+}
