@@ -9,5 +9,6 @@ class AnalyticsRecoveryRouteServiceProvider extends RouteServiceProvider
     public function map(Router $router)
     {
         $router->get('analytics.txt', 'BlueOctopusAnalyticsRecovery\Controllers\AnalyticsRecoveryController@show');
+        $router->get('analytics-recovery-test', 'BlueOctopusAnalyticsRecovery\Controllers\AnalyticsRecoveryController@show');
     }
 }
